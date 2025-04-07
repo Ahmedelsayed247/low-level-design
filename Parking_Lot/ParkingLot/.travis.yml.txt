@@ -1,0 +1,24 @@
+# .travis.yml
+
+# Specify the programming language for the project
+language: java
+
+# Specify the version of the JDK to use
+jdk:
+  - openjdk11  # You can also use openjdk8 or any other supported JDK version
+
+# Cache Maven dependencies to speed up builds
+cache:
+  directories:
+    - ~/.m2/repository  # Maven dependencies
+
+# The script that Travis will run to build and test the project
+script:
+  - mvn clean install  # Command to clean, build, and test the project
+
+# Optionally, specify the branch you want to deploy on (if using deploy steps)
+# deploy:
+#   provider: script
+#   script: ./deploy.sh
+#   on:
+#     branch: main  # deploy only on the 'main' branch
