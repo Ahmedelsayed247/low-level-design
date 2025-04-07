@@ -15,14 +15,6 @@ The **Optimized Parking Lot System** is a robust, object-oriented application de
   - Remaining 20% for trucks.
 - **Parking and Unparking**: Vehicles can be parked in appropriate spots based on their type and can be easily removed from the system.
 
-## Technologies Used
-
-- **Java**: The system is developed in Java using object-oriented programming principles.
-- **Design Patterns**:
-- 1. Singleton Pattern:
-The ParkingLot class uses the Singleton Pattern to ensure that only one instance of the parking lot exists. This guarantees that all parking operations are centralized, and it prevents the creation of multiple ParkingLot objects in the system.
-- 2. The Observer Design :
-- Pattern is used for real-time updates and notifications regarding parking lot status.
 
 ## Classes
 
