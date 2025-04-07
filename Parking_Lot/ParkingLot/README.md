@@ -1,5 +1,8 @@
 # Optimized Parking Lot System
 
+[![Build Status](https://img.shields.io/travis/username/repository.svg)](https://travis-ci.org/username/repository)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ## Overview
 
 The **Optimized Parking Lot System** is a robust, object-oriented application designed to manage parking lots. It efficiently handles the parking and unparking of various vehicle types (Motorcycles, Cars, and Trucks) while tracking the availability of parking spots in real time. The system is optimized to ensure seamless operations, using object-oriented principles along with the **Observer Design Pattern** to provide notifications about parking spot availability.
@@ -70,21 +73,22 @@ parkingLot.unparkVehicle(motorcycle);
 ```
 ## Project Structure
 src/
- └── parkingLot/
-      ├── VehicleType/
-      │    ├── Vehicle.java
-      │    ├── Car.java
-      │    ├── Motorcycle.java
-      │    ├── Truck.java
-      │    └── VehicleType.java
-      ├── observer/
-      │    ├── ParkingLotObserver.java
-      │    ├── ParkingLotSubject.java
-      │    └── AvailabilityDisplay.java
-      ├── ParkingSpot.java
-      ├── Level.java
-      ├── ParkingLot.java
-      └── Main.java
+ └── parkingLot/                    # Main package for the parking lot system
+      ├── VehicleType/               # Contains all vehicle-related classes and enums
+      │    ├── Vehicle.java          # Abstract base class for all vehicle types
+      │    ├── Car.java              # Class for Car vehicle type
+      │    ├── Motorcycle.java       # Class for Motorcycle vehicle type
+      │    ├── Truck.java            # Class for Truck vehicle type
+      │    └── VehicleType.java      # Enum defining different vehicle types
+      ├── observer/                  # Contains the Observer pattern implementation
+      │    ├── ParkingLotObserver.java  # Interface for observer classes
+      │    ├── ParkingLotSubject.java   # Interface for subjects (classes that notify observers)
+      │    └── AvailabilityDisplay.java # Concrete observer to display parking availability
+      ├── ParkingSpot.java           # Represents an individual parking spot
+      ├── Level.java                 # Represents a level in the parking lot
+      ├── ParkingLot.java            # Singleton class managing the entire parking lot system
+      └── Main.java                  # Entry point of the application
+
 
 ## Technologies Used
 Java (JDK 8 or higher)
