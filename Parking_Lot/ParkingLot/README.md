@@ -1,7 +1,5 @@
 # Optimized Parking Lot System
 
-[![Build Status](https://img.shields.io/travis/username/repository.svg)]([https://travis-ci.org/username/repository](https://app.travis-ci.com/Ahmedelsayed247/low-level-design.svg?token=kDsdEBs6SUSQxppYRoo8))
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ## Overview
 
 The **Optimized Parking Lot System** is a robust, object-oriented application designed to manage parking lots. It efficiently handles the parking and unparking of various vehicle types (Motorcycles, Cars, and Trucks) while tracking the availability of parking spots in real time. The system is optimized to ensure seamless operations, using object-oriented principles along with the **Observer Design Pattern** to provide notifications about parking spot availability.
@@ -23,7 +21,7 @@ The **Optimized Parking Lot System** is a robust, object-oriented application de
 - **Design Patterns**:
 - 1. Singleton Pattern:
 The ParkingLot class uses the Singleton Pattern to ensure that only one instance of the parking lot exists. This guarantees that all parking operations are centralized, and it prevents the creation of multiple ParkingLot objects in the system.
-- 2-The Observer Design :
+- 2. The Observer Design :
 - Pattern is used for real-time updates and notifications regarding parking lot status.
 
 ## Classes
