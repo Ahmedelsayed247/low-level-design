@@ -1,6 +1,8 @@
 # Optimized Parking Lot System
 
-[![Build Status](https://img.shields.io/travis/username/repository.svg)](https://travis-ci.org/username/repository)
+[![Build Status](https://img.shields.io/travis/username/repository.svg)]([https://travis-ci.org/username/repository](https://travis-ci.org/Ahmedelsayed247/low-level-design
+))
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Overview
@@ -92,6 +94,7 @@ src/
 
 ```
 ## Technologies Used
-Java (JDK 8 or higher)
-Object-Oriented Design (OOD)
-Design Patterns: Singleton, Observer
+- Java (JDK 8 or higher)
+- Object-Oriented Design (OOD)
+- Design Patterns: Singleton, Observer
+
