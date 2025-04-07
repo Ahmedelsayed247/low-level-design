@@ -72,6 +72,7 @@ parkingLot.displayAvailability();
 parkingLot.unparkVehicle(motorcycle);
 ```
 ## Project Structure
+```bash
 src/
  └── parkingLot/                    # Main package for the parking lot system
       ├── VehicleType/               # Contains all vehicle-related classes and enums
@@ -89,7 +90,7 @@ src/
       ├── ParkingLot.java            # Singleton class managing the entire parking lot system
       └── Main.java                  # Entry point of the application
 
-
+```
 ## Technologies Used
 Java (JDK 8 or higher)
 Object-Oriented Design (OOD)
