@@ -18,7 +18,11 @@ The **Optimized Parking Lot System** is a robust, object-oriented application de
 ## Technologies Used
 
 - **Java**: The system is developed in Java using object-oriented programming principles.
-- **Design Patterns**: The Observer Design Pattern is used for real-time updates and notifications regarding parking lot status.
+- **Design Patterns**:
+- 1. Singleton Pattern:
+The ParkingLot class uses the Singleton Pattern to ensure that only one instance of the parking lot exists. This guarantees that all parking operations are centralized, and it prevents the creation of multiple ParkingLot objects in the system.
+- 2-The Observer Design :
+- Pattern is used for real-time updates and notifications regarding parking lot status.
 
 ## Classes
 
@@ -63,3 +67,26 @@ parkingLot.displayAvailability();
 
 // Unpark a vehicle
 parkingLot.unparkVehicle(motorcycle);
+```
+## Project Structure
+src/
+ └── parkingLot/
+      ├── VehicleType/
+      │    ├── Vehicle.java
+      │    ├── Car.java
+      │    ├── Motorcycle.java
+      │    ├── Truck.java
+      │    └── VehicleType.java
+      ├── observer/
+      │    ├── ParkingLotObserver.java
+      │    ├── ParkingLotSubject.java
+      │    └── AvailabilityDisplay.java
+      ├── ParkingSpot.java
+      ├── Level.java
+      ├── ParkingLot.java
+      └── Main.java
+
+## Technologies Used
+Java (JDK 8 or higher)
+Object-Oriented Design (OOD)
+Design Patterns: Singleton, Observer
