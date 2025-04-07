@@ -1,6 +1,6 @@
 # Optimized Parking Lot System
 
-[![Build Status](https://img.shields.io/travis/username/repository.svg)]([https://travis-ci.org/username/repository](https://travis-ci.org/Ahmedelsayed247/low-level-design
+[![Build Status](https://img.shields.io/travis/username/repository.svg)]([[https://travis-ci.org/username/repository](https://travis-ci.org/Ahmedelsayed247/low-level-design](https://app.travis-ci.com/Ahmedelsayed247/low-level-design.svg?token=kDsdEBs6SUSQxppYRoo8)
 ))
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
